@@ -8,11 +8,7 @@ This project was inspired by [Discord's loading logo](https://canary.discordapp.
 
 Since the loading logo is a video you have less control over its behavior. This project recreates the animated logo in **S**caleable **V**ector **G**raphics. By using **SVG**, all edges are clean and sharp. You can have any size and color. It consumes less resources compared to a video. Original SVG and color palette were retrieved from [Discord](https://discordapp.com/branding).
 
-If you need help, feel free joining [my server](https://discord.gg/gDHs8AV). Visit my [GitHub page](https://nntin.github.io/discord-logo/) to create your own animated Discord logo.
-
-## Preview Example
-
-![](https://cdn.rawgit.com/NNTin/discord-logo/f4333344/src/assets/animateddiscord.svg)
+Visit the [website](https://wlft.github.io/discord-logo-2021) to create your own animated Discord logo.
 
 ## Build Setup
 
@@ -32,7 +28,7 @@ pnpm build
 pnpm lint
 ```
 
-Pushing to `master` builds the site and deploys it to GitHub Pages.
+Pushing to `main` builds the site and deploys it to GitHub Pages.
 
 ## License/Acknowledgements
 
