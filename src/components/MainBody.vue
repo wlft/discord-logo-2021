@@ -3,7 +3,6 @@
     <header>
       <h1>Animated Discord Logo</h1>
       <p>This is a fork of the <a href="https://nntin.xyz/discord-logo/">original project</a> that uses the modern 2021 Discord logo instead of the original. If you want the original, you can use that project at <a href="https://nntin.xyz/discord-logo/">https://nntin.xyz/discord-logo/</a>.</p>
-      <br />
       <p>This project was inspired by <a href="https://canary.discordapp.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm">Discord's loading logo.</a></p>
       <p>Since the loading logo is a video you have less control over its behavior. This project recreates the animated logo in <b>S</b>caleable <b>V</b>ector <b>G</b>raphics. By using <b>SVG</b>, all edges are clean and sharp. You can have any size and color. It consumes less resources compared to a video. Original SVG and color palette were retrieved from <a href="https://discordapp.com/branding">Discord</a>.</p>
       <p>Below is a code generator:</p>
