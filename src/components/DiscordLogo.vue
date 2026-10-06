@@ -505,20 +505,18 @@ export default {
   transform-origin: 50% 50%;
 }
 .discord-logo-container:hover .spin-animation .discord-outer-layer, .animated .spin-animation .discord-outer-layer {
-  animation: spin-outer 1600ms cubic-bezier(0.7, 1, 0.7, 1);
+  animation: discord-spin 1200ms cubic-bezier(0.6, 0, 0.4, 1);
 }
 .discord-logo-container:hover .spin-animation .discord-middle-layer, .animated .spin-animation .discord-middle-layer {
-  animation: spin-middle 1600ms cubic-bezier(0.5, 1, 0.5, 1);
+  animation: discord-spin 1200ms cubic-bezier(0.45, 0, 0.3, 1);
 }
 .discord-logo-container:hover .spin-animation .discord-inner-layer, .animated .spin-animation .discord-inner-layer {
-  animation: spin-inner 1600ms cubic-bezier(0.3, 1, 0.3, 1);
+  animation: discord-spin 1200ms cubic-bezier(0.3, 0, 0.2, 1);
 }
 .discord-logo-container:hover .spin-animation .discord-original, .animated .spin-animation .discord-original {
   visibility: hidden;
 }
-@keyframes spin-outer { 0% {transform: scale(1) rotate(0deg)} 50% {transform: scale(1.5) rotate(360deg)} 100% {transform: scale(1) rotate(720deg)} }
-@keyframes spin-middle { 0% {transform: scale(1) rotate(0deg)} 50% {transform: scale(1.4) rotate(360deg)} 100% {transform: scale(1) rotate(720deg)} }
-@keyframes spin-inner { 0% {transform: scale(1) rotate(0deg)} 50% {transform: scale(1.3) rotate(360deg)} 100% {transform: scale(1) rotate(720deg)} }
+@keyframes discord-spin { from {transform: rotate(0deg)} to {transform: rotate(360deg)} }
 foreignObject{
   width: 100%;
   height: 100%;
