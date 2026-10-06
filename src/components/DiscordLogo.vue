@@ -505,13 +505,13 @@ export default {
   transform-origin: 50% 50%;
 }
 .discord-logo-container:hover .spin-animation .discord-outer-layer, .animated .spin-animation .discord-outer-layer {
-  animation: discord-spin 1200ms cubic-bezier(0.6, 0, 0.4, 1);
+  animation: discord-spin 700ms cubic-bezier(0.5, 0, 0.3, 1);
 }
 .discord-logo-container:hover .spin-animation .discord-middle-layer, .animated .spin-animation .discord-middle-layer {
-  animation: discord-spin 1200ms cubic-bezier(0.45, 0, 0.3, 1);
+  animation: discord-spin 700ms cubic-bezier(0.35, 0, 0.25, 1);
 }
 .discord-logo-container:hover .spin-animation .discord-inner-layer, .animated .spin-animation .discord-inner-layer {
-  animation: discord-spin 1200ms cubic-bezier(0.3, 0, 0.2, 1);
+  animation: discord-spin 700ms cubic-bezier(0.2, 0, 0.2, 1);
 }
 .discord-logo-container:hover .spin-animation .discord-original, .animated .spin-animation .discord-original {
   visibility: hidden;
