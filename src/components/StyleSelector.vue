@@ -21,6 +21,19 @@
       class="button"
       :is-rainbow="isRainbow"
       :custom-link="customLink"
+      :style="isActive('spin')"
+      animation-style="spin"
+      :width="size"
+      :height="size"
+      :discordfill="discordfill"
+      :discordcolor="discordcolor"
+      @click="setStyle('spin')"
+    /><br>
+    <DiscordLogo
+      :discord-eyes="discordEyes"
+      class="button"
+      :is-rainbow="isRainbow"
+      :custom-link="customLink"
       :style="isActive('rotateX')"
       animation-style="rotateX"
       :width="size"
@@ -28,7 +41,7 @@
       :discordfill="discordfill"
       :discordcolor="discordcolor"
       @click="setStyle('rotateX')"
-    /><br>
+    />
     <DiscordLogo
       :discord-eyes="discordEyes"
       class="button"
@@ -41,7 +54,7 @@
       :discordfill="discordfill"
       :discordcolor="discordcolor"
       @click="setStyle('rotateY')"
-    />
+    /><br>
     <DiscordLogo
       :discord-eyes="discordEyes"
       class="button"
@@ -54,7 +67,7 @@
       :discordfill="discordfill"
       :discordcolor="discordcolor"
       @click="setStyle('shake')"
-    /><br>
+    />
     <DiscordLogo
       :discord-eyes="discordEyes"
       class="button"
@@ -67,7 +80,7 @@
       :discordfill="discordfill"
       :discordcolor="discordcolor"
       @click="setStyle('softshake')"
-    />
+    /><br>
     <DiscordLogo
       :discord-eyes="discordEyes"
       class="button"

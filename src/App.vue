@@ -121,7 +121,7 @@ export default {
         background: new URL(document.URL).searchParams.get("background") ? new URL(document.URL).searchParams.get("background") : 'none', //none starfield grid rush
         discordEyes: new URL(document.URL).searchParams.get("eyes") ? new URL(document.URL).searchParams.get("eyes") : 'none', //none wink angry noeyes
         isRainbow: new URL(document.URL).searchParams.get("rainbow") ? true : false,
-        animationStyle: new URL(document.URL).searchParams.get("animation") ? new URL(document.URL).searchParams.get("animation") : 'swirl', //swirl rotateX rotateY shake softshake
+        animationStyle: new URL(document.URL).searchParams.get("animation") ? new URL(document.URL).searchParams.get("animation") : 'swirl', //swirl spin rotateX rotateY shake softshake
         standardText: 'Join us on Discord',
         previewDiscordType: new URL(document.URL).searchParams.get("preview") ? new URL(document.URL).searchParams.get("preview") : 'standard', //corner standard speechbubble
         colors: {

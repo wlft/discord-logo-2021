@@ -188,7 +188,7 @@ export default {
     },
     animationStyle: {
       type: String,
-      default: 'swirl'  //swirl rotateX rotateY shake softshake
+      default: 'swirl'  //swirl spin rotateX rotateY shake softshake
     },
     isRainbow: {
       type: Boolean,
@@ -249,7 +249,7 @@ export default {
         useElement.setAttribute("class", "discord-original");
         useElement.setAttributeNS(xlinkns, "href", "#" + this.discordFaceID);
         discordLogo.appendChild(useElement)
-        if (this.animationStyle == "swirl") {
+        if (this.animationStyle == "swirl" || this.animationStyle == "spin") {
           ["inner", "middle", "outer"].map(function(item) {
             var useElement = document.createElementNS(svgns, "use");
             useElement.setAttribute("class", "discord-" + item + "-layer");
@@ -500,6 +500,25 @@ export default {
   visibility: hidden;
   transition-delay: 0ms;
 }
+/* SPIN animation: the layers swirl out and back into the logo once per hover */
+.discord-logo.spin-animation .discord-outer-layer, .discord-logo.spin-animation .discord-middle-layer, .discord-logo.spin-animation .discord-inner-layer {
+  transform-origin: 50% 50%;
+}
+.discord-logo-container:hover .spin-animation .discord-outer-layer, .animated .spin-animation .discord-outer-layer {
+  animation: spin-outer 1600ms cubic-bezier(0.7, 1, 0.7, 1);
+}
+.discord-logo-container:hover .spin-animation .discord-middle-layer, .animated .spin-animation .discord-middle-layer {
+  animation: spin-middle 1600ms cubic-bezier(0.5, 1, 0.5, 1);
+}
+.discord-logo-container:hover .spin-animation .discord-inner-layer, .animated .spin-animation .discord-inner-layer {
+  animation: spin-inner 1600ms cubic-bezier(0.3, 1, 0.3, 1);
+}
+.discord-logo-container:hover .spin-animation .discord-original, .animated .spin-animation .discord-original {
+  visibility: hidden;
+}
+@keyframes spin-outer { 0% {transform: scale(1) rotate(0deg)} 50% {transform: scale(1.5) rotate(360deg)} 100% {transform: scale(1) rotate(720deg)} }
+@keyframes spin-middle { 0% {transform: scale(1) rotate(0deg)} 50% {transform: scale(1.4) rotate(360deg)} 100% {transform: scale(1) rotate(720deg)} }
+@keyframes spin-inner { 0% {transform: scale(1) rotate(0deg)} 50% {transform: scale(1.3) rotate(360deg)} 100% {transform: scale(1) rotate(720deg)} }
 foreignObject{
   width: 100%;
   height: 100%;
