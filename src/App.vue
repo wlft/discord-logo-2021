@@ -126,7 +126,7 @@ export default {
         previewDiscordType: new URL(document.URL).searchParams.get("preview") ? new URL(document.URL).searchParams.get("preview") : 'standard', //corner standard speechbubble
         colors: {
           discordcolor: '#FFFFFF',
-          discordfill: '#7289DA'
+          discordfill: '#5865F2'
         }
   		}
   	},

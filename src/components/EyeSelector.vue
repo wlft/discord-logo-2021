@@ -66,7 +66,7 @@ export default {
     },
 		discordcolor: {
       type: String,
-      default: '#7289DA'
+      default: '#5865F2'
 		},
     discordfill: {
       type: String,

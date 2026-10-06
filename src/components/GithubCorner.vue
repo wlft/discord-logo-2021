@@ -7,7 +7,7 @@
     >
       <a
         :fill="discordcolor"
-        href="https://github.com/NNTin/discord-logo"
+        href="https://github.com/wlft/discord-logo-2021"
         style="pointer-events:auto"
       >
         <path d="M0,0 L250,250 L250,0 Z" />
@@ -73,7 +73,7 @@ export default {
 	props: {
 		discordcolor: {
       type: String,
-      default: '#7289DA'
+      default: '#5865F2'
 		},
     discordfill: {
       type: String,

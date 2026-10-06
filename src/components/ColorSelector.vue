@@ -7,9 +7,9 @@
       :custom-link="customLink"
       :width="size"
       :height="size"
-      discordfill="#7289DA"
+      discordfill="#5865F2"
       discordcolor="#FFFFFF"
-      @click="setColor('#7289DA','#FFFFFF') + setRainbow(false)"
+      @click="setColor('#5865F2','#FFFFFF') + setRainbow(false)"
     />
     <DiscordLogo
       class="button"
@@ -18,9 +18,9 @@
       :custom-link="customLink"
       :width="size"
       :height="size"
-      discordfill="#7289DA"
-      discordcolor="#2C2F33"
-      @click="setColor('#7289DA','#2C2F33') + setRainbow(false)"
+      discordfill="#5865F2"
+      discordcolor="#23272A"
+      @click="setColor('#5865F2','#23272A') + setRainbow(false)"
     /><br>
     <DiscordLogo
       class="button"
@@ -30,8 +30,8 @@
       :width="size"
       :height="size"
       discordfill="#FFFFFF"
-      discordcolor="#7289DA"
-      @click="setColor('#FFFFFF','#7289DA') + setRainbow(false)"
+      discordcolor="#5865F2"
+      @click="setColor('#FFFFFF','#5865F2') + setRainbow(false)"
     />
     <DiscordLogo
       class="button"
@@ -41,8 +41,8 @@
       :width="size"
       :height="size"
       discordfill="#FFFFFF"
-      discordcolor="#2C2F33"
-      @click="setColor('#FFFFFF','#2C2F33') + setRainbow(false)"
+      discordcolor="#23272A"
+      @click="setColor('#FFFFFF','#23272A') + setRainbow(false)"
     /><br>
     <DiscordLogo
       class="button"
@@ -51,9 +51,9 @@
       :custom-link="customLink"
       :width="size"
       :height="size"
-      discordfill="#2C2F33"
-      discordcolor="#7289DA"
-      @click="setColor('#2C2F33','#7289DA') + setRainbow(false)"
+      discordfill="#23272A"
+      discordcolor="#5865F2"
+      @click="setColor('#23272A','#5865F2') + setRainbow(false)"
     />
     <DiscordLogo
       class="button"
@@ -62,9 +62,9 @@
       :custom-link="customLink"
       :width="size"
       :height="size"
-      discordfill="#2C2F33"
+      discordfill="#23272A"
       discordcolor="#FFFFFF"
-      @click="setColor('#2C2F33','#FFFFFF') + setRainbow(false)"
+      @click="setColor('#23272A','#FFFFFF') + setRainbow(false)"
     />
   </div>
 </template>
@@ -97,7 +97,7 @@ export default {
       size: 48,
       colors: {
         discordcolor: '#FFFFFF',
-        discordfill: '#7289DA',
+        discordfill: '#5865F2',
       }
     }
   },

@@ -30,7 +30,7 @@
             <ToggleButton
               v-model="isTop"
               class="button"
-              :color="{checked: '#7289DA', unchecked: '#D4DA72'}"
+              :color="{checked: '#5865F2', unchecked: '#D4DA72'}"
               :disabled="previewDiscordType != 'corner'"
               :labels="{checked: 'top', unchecked: 'bottom'}"
               :width="100"
@@ -183,7 +183,7 @@ export default {
 
       colors: {
         discordcolor: '#FFFFFF',
-        discordfill: '#7289DA'
+        discordfill: '#5865F2'
       },
       customLink: ""
     }

@@ -68,7 +68,7 @@ export default {
 		},
     discordfill: {
       type: String,
-      default: '#7289DA'
+      default: '#5865F2'
     },
     customLink: {
       type: String,
