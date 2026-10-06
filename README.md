@@ -1,5 +1,8 @@
 # Animated Discord Logo
-[![CI status](https://github.com/NNTin/discord-logo/actions/workflows/ci.yml/badge.svg)](https://github.com/NNTin/discord-logo/actions)
+[![CI status](https://github.com/wlft/discord-logo-2021/actions/workflows/ci.yml/badge.svg)](https://github.com/wlft/discord-logo-2021/actions)
+
+> [!NOTE]
+> This is a fork of the original project, [NNTin/discord-logo](https://github.com/NNTin/discord-logo) which uses the original Discord logo.
 
 This project was inspired by [Discord's loading logo](https://canary.discordapp.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm).
 
